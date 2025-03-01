@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600; 
+}
+
+input {
+    width: calc(100% - 130px);
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: inherit; 
+}
+
+input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+button {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+li:hover {
+    background-color: #e9ecef;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.complete-button {
+    margin-right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #28a745; 
+    transition: transform 0.2s;
+}
+
+
+
+.task-label {
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: 500; 
+}
+
+.delete-button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #dc3545; 
+    transition: transform 0.2s;
+}
+
+
+
+.pin-button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #007bff; 
+}
+
+
+
+.pinned {
+    background-color: #ffeeba; 
+}
